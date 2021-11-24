@@ -8,7 +8,7 @@ output: pdf_document
 
 \item You are going to show that the GMM estimator is equivalent to 3SLS. That is, show that 
 
-$$(P_WX_\bullet)^T(\Sigma^{-1}\otimes I) = X_\bullet(\Sigma^{-1}\otimes P_W),$$
+$$(P_WX_\bullet)^T(\Sigma^{-1}\otimes I) = X_\bullet^T(\Sigma^{-1}\otimes P_W),$$
 where $P_WX_\bullet$ is a block-diagonal matrix with blocks given by $P_WX_i$.
 
 Hint: Write $P_WX_\bullet$ as a Kroenecker product.
